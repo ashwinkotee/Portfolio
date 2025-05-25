@@ -79,7 +79,7 @@ var __TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$g
 ;
 ;
 const metadata = {
-    title: '[Your Name] - Developer',
+    title: 'Ashwin Kumar Portfolio',
     description: 'Welcome to my portfolio! I am a passionate developer who believes in simplicity and effectiveness. I focus on creating straightforward solutions that solve real problems, with clean code and intuitive user experiences.',
     keywords: [
         'Software Developer',
@@ -96,7 +96,7 @@ const metadata = {
         'Web Development',
         'Frontend Development',
         'Backend Development',
-        '[Your Name]'
+        'Ashwin Kumar Tiruvenkatapuram Koteeswaran'
     ],
     authors: [
         {

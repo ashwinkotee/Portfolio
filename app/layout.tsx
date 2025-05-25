@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-	title: '[Your Name] - Developer',
+	title: 'Ashwin Kumar Portfolio',
 	description:
 		'Welcome to my portfolio! I am a passionate developer who believes in simplicity and effectiveness. I focus on creating straightforward solutions that solve real problems, with clean code and intuitive user experiences.',
 	keywords: [
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
 		'Web Development',
 		'Frontend Development',
 		'Backend Development',
-		'[Your Name]',
+		'Ashwin Kumar Tiruvenkatapuram Koteeswaran',
 	],
 	authors: [{ name: '[Your Name]' }],
 	creator: '[Your Name]',
