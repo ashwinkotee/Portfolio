@@ -15,7 +15,7 @@ const ProfileSection = () => {
 					<h2 className="text-lg md:text-xl text-gray-600 dark:text-gray-400">Senior Software Engineer</h2>
 					<div className="h-px w-16 bg-gray-200 dark:bg-gray-700 mx-auto my-4" />
 					<p className="text-sm md:text-base text-gray-600 dark:text-gray-400 max-w-xs mx-auto leading-relaxed">
-						15+ years building scalable systems and leading engineering teams
+						Yes- Ashwin
 					</p>
 				</div>
 
