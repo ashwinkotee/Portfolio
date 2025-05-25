@@ -1,21 +1,21 @@
 const ExperienceSection = () => {
 	const experiences = [
 		{
-			role: 'Senior Software Engineer',
-			company: 'Tech Corp',
-			period: '2020 - Present',
+			role: 'IT Developer',
+			company: 'Canada Revenue Agency',
+			period: 'Jan 2024 - Mar 2025',
 			highlights: 'Led development of microservices architecture, 40% improvement in system performance',
 		},
 		{
-			role: 'Software Engineer',
-			company: 'Innovation Labs',
-			period: '2017 - 2020',
+			role: 'Software Developer - Intern',
+			company: 'Etovos Lorand University',
+			period: 'Mar 2023 - Mar 2024',
 			highlights: 'Architected cloud-native applications, mentored junior developers',
 		},
 		{
-			role: 'Full Stack Developer',
-			company: 'StartUp Inc',
-			period: '2015 - 2017',
+			role: 'Web Developer',
+			company: 'Technorate R&D Association',
+			period: 'Mar 2018 - Dec 2019',
 			highlights: 'Built scalable web applications using React and Node.js',
 		},
 	];
