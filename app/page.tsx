@@ -14,8 +14,8 @@ export default function MinimalistPortfolio() {
 
 			{/* Right Content Section - appears second on mobile, right on desktop */}
 			<div className="w-full md:w-3/5 md:h-screen md:overflow-y-auto p-6 space-y-10">
-				<SkillsSection />
 				<ExperienceSection />
+				<SkillsSection />
 				<Education />
 				<Certifications />
 			</div>
