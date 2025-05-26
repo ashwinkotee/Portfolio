@@ -6,29 +6,19 @@ import Certifications from './components/Certifications';
 
 export default function MinimalistPortfolio() {
 	return (
-		<main className="min-h-screen md:h-screen flex flex-col bg-white dark:bg-gray-900 pb-16 sm:pb-0">
-			<div className="flex-1 grid grid-cols-1 md:grid-cols-5">
-				{/* Left Column - Profile */}
-				<div className="md:col-span-2 border-b md:border-b-0 md:border-r border-gray-200 dark:border-gray-800 md:flex md:items-center">
-					<ProfileSection />
-				</div>
+		<main className="h-screen md:flex bg-white dark:bg-gray-900">
+			{/* Profile Section - appears first on mobile, left on desktop */}
+			<div className="w-full md:w-2/5 border-b md:border-b-0 md:border-r border-gray-200 dark:border-gray-800 p-6 flex items-center justify-center">
+				<ProfileSection />
+			</div>
 
-				{/* Right Column - Scrollable */}
-				<div className="md:col-span-3 overflow-y-auto h-full p-4 space-y-8">
-					{/* Skills Section */}
-					<SkillsSection />
-
-					{/* Experience Section */}
-					<ExperienceSection />
-
-					{/* Education */}
-					<Education />
-
-					{/* Certifications */}
-					<Certifications />
-				</div>
+			{/* Right Content Section - appears second on mobile, right on desktop */}
+			<div className="w-full md:w-3/5 md:h-screen md:overflow-y-auto p-6 space-y-10">
+				<SkillsSection />
+				<ExperienceSection />
+				<Education />
+				<Certifications />
 			</div>
 		</main>
 	);
 }
-
