@@ -1,8 +1,8 @@
 const Certifications = () =>{
 
     const certificates = [{
-        title:"AWS"
-    },{title:"Azure"}]
+        title:"AWS Certified Cloud Practitioner (CLF-C02)"
+    },{title:"Azure Fundamentals (AZ-900)"}]
     return <>
     <div className="py-6 bg-white dark:bg-gray-900 px-6">
 			<div className="space-y-4 max-w-2xl mx-auto">
