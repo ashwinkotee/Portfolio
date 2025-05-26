@@ -20,7 +20,7 @@ const ProfileSection = () => {
 				</div>
 
 				<div className="space-y-4">
-					<a className="text-sm text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white" href="http://www.goog.com">Download Resume</a>
+					<a  target='_blank' className="text-sm text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white" href="/Ashwin_Kumar_Resume.pdf">Download Resume</a>
 					{/* Contact Info */}
 					<div className="flex items-center justify-center space-x-2">
 						<svg className="w-4 h-4 text-gray-600 dark:text-gray-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">

@@ -2,6 +2,7 @@ import ProfileSection from './components/ProfileSection';
 import SkillsSection from './components/SkillsSection';
 import ExperienceSection from './components/ExperienceSection';
 import Education from './components/Education';
+import Certifications from './components/Certifications';
 
 export default function MinimalistPortfolio() {
 	return (
@@ -12,25 +13,22 @@ export default function MinimalistPortfolio() {
 					<ProfileSection />
 				</div>
 
-				{/* Right Column - Skills and Experience */}
-				<div className="md:col-span-3 flex flex-col md:justify-center">
+				{/* Right Column - Scrollable */}
+				<div className="md:col-span-3 overflow-y-auto h-full p-4 space-y-8">
 					{/* Skills Section */}
-					<div className="">
-						<SkillsSection />
-					</div>
+					<SkillsSection />
 
 					{/* Experience Section */}
-					<div>
-						<ExperienceSection />
-					</div>
+					<ExperienceSection />
 
-					{/* {Education} */}
-					<div>
-						<Education />
-					</div>
-					
+					{/* Education */}
+					<Education />
+
+					{/* Certifications */}
+					<Certifications />
 				</div>
 			</div>
 		</main>
 	);
 }
+
